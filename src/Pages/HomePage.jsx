@@ -2,12 +2,14 @@ import React from 'react';
 import AboutMe from '../Components/AboutMe';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
+import TechList from '../Components/TechList';
 
 function HomePage() {
   return (
     <div>
       <Header title="Sobre Mim"/>
       <AboutMe />
+      <TechList />
       <Footer />
     </div>
   );
