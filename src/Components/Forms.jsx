@@ -25,7 +25,7 @@ function Forms() {
               type="text"
               name="name" 
               placeholder="Seu nome" 
-              value={ inputs.name }
+              value={ inputs.name || "" }
               onChange={ handleChange }
               required 
             />
@@ -36,7 +36,7 @@ function Forms() {
               type="text" 
               name="email" 
               placeholder="Seu e-mail" 
-              value={ inputs.email }
+              value={ inputs.email || "" }
               onChange={ handleChange }
               required 
             />
@@ -47,7 +47,7 @@ function Forms() {
               type="text" 
               name="message" 
               placeholder="Escreva sua mensagem" 
-              value={ inputs.message }
+              value={ inputs.message || "" }
               onChange={ handleChange }
               required 
             />
