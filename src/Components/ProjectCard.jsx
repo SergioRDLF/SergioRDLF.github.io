@@ -1,0 +1,1 @@
+// Estruturar como será o card e pegar as informações do arquivo data/projects.js
