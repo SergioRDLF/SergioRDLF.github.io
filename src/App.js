@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Contact from './Pages/Contact';
 import HomePage from './Pages/HomePage';
 import Projects from './Pages/Projects';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends React.Component {
   render() {
