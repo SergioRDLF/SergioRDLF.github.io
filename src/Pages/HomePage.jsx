@@ -7,7 +7,7 @@ import TechList from '../Components/TechList';
 function HomePage() {
   return (
     <div>
-      <Header title="Sobre Mim"/>
+      <Header title="Sobre mim" />
       <AboutMe />
       <TechList />
       <Footer />
